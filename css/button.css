@@ -1,0 +1,214 @@
+body {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    height: 100%;
+    background-color: #000000e4;
+    
+}
+form {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: black;
+    
+}
+
+.form_info {
+    display: flex;
+    width: 300px;
+    height: 400px;
+    background-color: antiquewhite;
+}
+
+.sicret {
+    width: 600px;
+    height: 800px;
+    background-color: #2EE59D;
+    top: 7000px;
+
+}
+
+.text_info {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: rgba(146, 37, 139, 0.921);
+    text-align: center;
+    background: #2EE59D;
+    width: 300px;
+    border-radius: 30px;
+    box-shadow: 0 15px 7px rgba(46, 229, 157, .4);
+}
+
+
+.text_info1 {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: rgba(41, 41, 41, 0.91);
+    text-align: center;
+    background: #2EE59D;
+    width: 90px;
+    border-radius: 30px;
+    box-shadow: 0 15px 20px rgba(46, 229, 157, .4);
+    color: rgb(0, 0, 0);
+}
+.text_info2 {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 19px;
+    color: rgba(61, 61, 61, 0.91);
+    text-align: center;
+    background: #2EE59D;
+    width: 300px;
+    border-radius: 30px;
+    box-shadow: 0 15px 20px rgba(46, 229, 157, .4);
+}
+
+.button {
+    height: 300px;
+    width: 250px;
+    border-radius: 30px;
+    margin-top: 20px;
+    background-color: aqua;
+    cursor:alias;   
+}
+.text_inst{
+
+    width: 900px;
+    height: 30px;
+}
+
+.range_one{
+    width: 300px;
+    height: 30px;
+    border: 1px solid #d20000;
+    color: deeppink;
+    background: deeppink;
+    border-radius: 3px; //закругление углов (общее)
+-webkit-border-radius: 3px; //закругление углов (Google Chrome)
+-moz-border-radius: 3px; //закругление углов (FireFox)
+-khtml-border-radius: 3px; //закругление углов (Safari)
+}
+input[type=range] {
+    color: #d20000;
+    border-radius: 30px ;
+    -webkit-appearance: none;
+    margin: 5.8px 0;
+    background-color: #b600d7;
+}
+
+
+
+
+img {
+border-radius: 70px;
+box-shadow: 0 15px 20px rgba(46, 229, 157, .4);
+    color: rgb(0, 0, 0);
+}
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 40px;
+    background: #d20000;
+    font-style: inherit;
+    font-size: 20px;
+    left: auto;
+    right: auto;
+    height: 50px;
+    width: 300px;
+    cursor: pointer;
+
+}
+
+.floating-button {
+    text-decoration: none;
+    display: inline-block;
+    width: 140px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 45px;
+    margin: 20px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: #524f4e;
+    background: white;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+    transition: .3s;
+  }
+  .floating-button:hover {
+    background: #2EE59D;
+    box-shadow: 0 15px 20px rgba(46, 229, 157, .4);
+    color: white;
+    transform: translateY(-7px);
+  }
+.heart {
+    animation: heartbeat 1s infinite;
+    background-color: red;
+    display: inline-block;
+    height: 100px;
+    margin: 0 10px;
+    position: relative;
+    top: 0;
+    transform: rotate(-45deg);
+    position: absolute;
+    left: 45%; top: 45%;
+    width: 100px;
+    cursor: pointer;
+
+}
+
+
+.heart:before,
+.heart:after {
+    content: "";
+    background-color: red;
+    border-radius: 50%;
+    height: 100px;
+    position: absolute;
+    width: 100px;
+
+}
+
+.heart:before {
+    top: -50px;
+    left: 0;
+}
+
+
+.heart:after {
+    left: 50px;
+    top: 0;
+
+}
+
+@keyframes heartbeat
+{
+    0%
+    {
+        transform: scale( 1 )
+        rotate(-45deg);
+    }
+    20%
+    {
+        transform: scale( 1.25 )
+        rotate(-45deg);
+    }
+    40%
+    {
+        transform: scale( 1.5 )
+        rotate(-45deg);
+    }
+}
